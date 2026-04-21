@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Proofly</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Proofly Verification</h1>
+
+  <div class="card">
+    <h2>Create Proof</h2>
+    <input id="createData" placeholder="Enter data">
+    <button onclick="createProof()">Create</button>
+    <p id="createResult"></p>
+  </div>
+
+  <div class="card">
+    <h2>Verify Proof</h2>
+    <input id="verifyId" placeholder="Proof ID">
+    <input id="verifyData" placeholder="Enter data">
+    <button onclick="verifyProof()">Verify</button>
+    <p id="verifyResult"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
